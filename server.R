@@ -101,7 +101,7 @@ server <- function(input, output){
   # Output: Textblock 1 ----
   output$textblocknum <- renderText({
     out <- paste("<ul>",
-                 "<li>Each row represents the volume of one bottle (liters)</li>",
+                 "<li>Each row represents the volume of one bottle (fl oz)</li>",
                  "</ul>")
     out
   })
